@@ -1,0 +1,7 @@
+Running: xsim.dir/posit_mult_8bit_tb_v_func_impl/xsimk.exe -simmode gui -wdb posit_mult_8bit_tb_v_func_impl.wdb -simrunnum 0 -socket 55318
+Design successfully loaded
+Design Loading Memory Usage: 10556 KB (Peak: 10556 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 15148 KB (Peak: 15148 KB)
+Simulation CPU Usage: 124 ms

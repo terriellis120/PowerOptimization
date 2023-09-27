@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1689619548">
+  <File Type="PA-TCL" Name="posit_mult.tcl"/>
+  <File Type="REPORTS-TCL" Name="posit_mult_reports.tcl"/>
+  <File Type="RDS-RDS" Name="posit_mult.vds"/>
+  <File Type="RDS-UTIL" Name="posit_mult_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="posit_mult_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="posit_mult.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/defines.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CSA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/DSR_left_N_S.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/DSR_left_N_S.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/DSR_right_N_S.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/DSR_right_N_S.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/LOD_N.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/LOD_N.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/LZD_N.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/LZD_N.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/data_extract.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/data_extract.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/intMult.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/posit_mult.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/posit_mult.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="posit_mult"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_posit_mult.srcs/sources_1/imports" \
+"../../../../project_posit_mult.srcs/sources_1/imports/CSA.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_left_N_S.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_right_N_S.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/FA.v" \
+"../../../../project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Floating-Point_to_Posit_Convertor/FP_to_Posit.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LOD_N.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LZD_N.v" \
+"../../../../project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Posit_to_Floating-Point_Convertor/Posit_to_FP.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/data_extract.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/intMult.v" \
+"../../../../project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/posit_mult.v" \
+"../../../../project_posit_mult.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

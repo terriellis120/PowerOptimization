@@ -1,0 +1,376 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 7172
+License: Customer
+
+Current time: 	Mon Jul 24 23:35:21 PKT 2023
+Time zone: 	Pakistan Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 136 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Hp
+User home directory: C:/Users/Hp
+User working directory: C:/project_posit_mult_dsp
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Hp/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Hp/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Hp/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/project_posit_mult_dsp/vivado.log
+Vivado journal file location: 	C:/project_posit_mult_dsp/vivado.jou
+Engine tmp dir: 	C:/project_posit_mult_dsp/.Xil/Vivado-7172-DESKTOP-MS0OIJF
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: C:\Xilinx\license.lic
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 574 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 65 MB (+65784kb) [00:00:06]
+// [Engine Memory]: 486 MB (+357845kb) [00:00:06]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\project_posit_mult_dsp\project_posit_mult.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/project_posit_mult_dsp/project_posit_mult.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 571 MB (+63485kb) [00:00:08]
+// Tcl Message: open_project C:/project_posit_mult_dsp/project_posit_mult.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 611 MB (+12333kb) [00:00:10]
+// [Engine Memory]: 658 MB (+17744kb) [00:00:11]
+// [GUI Memory]: 71 MB (+3096kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 669 MB. GUI used memory: 40 MB. Current time: 7/24/23 11:35:25 PM PKT
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 950.855 ; gain = 205.527 
+// Project name: project_posit_mult; location: C:/project_posit_mult_dsp; part: xc7a200tfbg484-2
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (ck):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 718 MB. GUI used memory: 38 MB. Current time: 7/24/23 11:35:58 PM PKT
+// [Engine Memory]: 830 MB (+144982kb) [00:00:49]
+// [Engine Memory]: 1,031 MB (+167832kb) [00:00:54]
+// [Engine Memory]: 1,087 MB (+4254kb) [00:00:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,095 MB. GUI used memory: 38 MB. Current time: 7/24/23 11:36:13 PM PKT
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,516 MB (+393394kb) [00:01:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,516 MB. GUI used memory: 38 MB. Current time: 7/24/23 11:36:17 PM PKT
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2018.2/data/parts/xilinx/artix7/devint/artix7/xc7a200t/xc7a200t.xgd; ZipEntry: xc7a200t_detail.xgd elapsed time: 0.5s
+// [GUI Memory]: 81 MB (+6454kb) [00:01:05]
+// [Engine Memory]: 1,633 MB (+43140kb) [00:01:05]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 71 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7a200tfbg484-2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 1838.258 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 1838.258 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// [GUI Memory]: 88 MB (+2855kb) [00:01:07]
+// Device view-level: 0.0
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1968.648 ; gain = 1008.383 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dP' command handler elapsed time: 26 seconds
+// [GUI Memory]: 96 MB (+3929kb) [00:01:09]
+// Elapsed time: 26 seconds
+dismissDialog("Open Implemented Design"); // bx (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_POWER_ESTIMATION, "Report Power..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// a (ck): Report Power: addNotify
+selectTab(PAResourceTtoZ.XPowerSettingsDialog_TABBED_PANE, PAResourceTtoZ.XPowerSettingsDialog_SWITCHING, "Switching", 2); // i (a)
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_CHOOSE_INPUT_SIMULATION_ACTIVITY_FILE, (String) null); // q (ak)
+// [GUI Memory]: 103 MB (+2278kb) [00:01:19]
+// [GUI Memory]: 109 MB (+1010kb) [00:01:59]
+// Elapsed time: 43 seconds
+setFileChooser("C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test");
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+// 'dk' command handler elapsed time: 49 seconds
+dismissDialog("Report Power"); // a (ck)
+// bx (ck):  Power Analysis : addNotify
+// Tcl Message: read_saif {C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test} 
+// Tcl Message: INFO: [Power 33-167] Parsing SAIF file C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test 
+// Tcl Message: INFO: [Power 33-177] SAIF annotation done from file C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test INFO: [Power 33-26] Design nets matched = 984 of 984 
+// Tcl Message: report_power -name {power_1} 
+// Tcl Message: Command: report_power -name power_1 
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 115 MB (+833kb) [00:02:04]
+// Tcl Message: 0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. report_power completed successfully 
+dismissDialog("Power Analysis"); // bx (ck)
+maximizeFrame(PAResourceOtoP.PAViews_POWER, "Power - power_1"); // aw (aE, ck)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+// [Engine Memory]: 1,743 MB (+29335kb) [00:02:22]
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_FUNCTIONAL, "Run Post-Implementation Functional Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// e (ck):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-implementation -type functional 
+// Tcl Message: INFO: [Vivado 12-5682] Launching post-implementation functional simulation in 'C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'... INFO: [SIM-utils-32] write_verilog -mode funcsim -nolib -force -file "C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/posit_mult_8bit_tb_v_func_impl.v" INFO: [SIM-utils-36] Netlist generated:C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/posit_mult_8bit_tb_v_func_impl.v INFO: [SIM-utils-54] Inspecting design source files for 'posit_mult_8bit_tb_v' in fileset 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,743 MB. GUI used memory: 86 MB. Current time: 7/24/23 11:37:38 PM PKT
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim' 
+// Tcl Message: Vivado Simulator 2018.2 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4b9b058bbfb74c0d95bcda2b4917ffe2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot posit_mult_8bit_tb_v_func_impl xil_defaultlib.posit_mult_8bit_tb_v xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "posit_mult_8bit_tb_v_func_impl -key {Post-Implementation:sim_1:Functional:posit_mult_8bit_tb_v} -tclbatch {posit_mult_8bit_tb_v.tcl} -view {C:/project_posit_mult_dsp/posit_mult_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+unMaximizeFrame(PAResourceOtoP.PAViews_POWER, "Power - power_1"); // aw (aE, ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: open_wave_config C:/project_posit_mult_dsp/posit_mult_behav.wcfg 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,743 MB. GUI used memory: 89 MB. Current time: 7/24/23 11:37:47 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source posit_mult_8bit_tb_v.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # open_saif "saif_test" # log_saif [get_objects -r *] # run 1000ns 
+// Tcl Message: $finish called at time : 300100 ps : File "C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/new/tb.v" Line 102 
+// Tcl Message: # close_saif 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'posit_mult_8bit_tb_v_func_impl' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2030.918 ; gain = 0.000 
+// 'd' command handler elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // aa (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true, false, false, false, true, false); // u (O, ck) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_SETTINGS, "Simulation Settings..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// C (ck): Settings: addNotify
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // i (Q, C)
+// [GUI Memory]: 129 MB (+8399kb) [00:02:49]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+// [GUI Memory]: 141 MB (+5950kb) [00:02:52]
+// bx (ck):  Change Settings : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property -name {xsim.simulate.saif} -value {saif_test.saif} -objects [get_filesets sim_1] 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Change Settings"); // bx (ck)
+dismissDialog("Settings"); // C (ck)
+// [GUI Memory]: 152 MB (+3547kb) [00:02:53]
+// TclEventType: CREATE_IP_CATALOG
+// [GUI Memory]: 165 MB (+5463kb) [00:02:53]
+// Tcl Message: update_ip_catalog 
+// [GUI Memory]: 174 MB (+1468kb) [00:02:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,802 MB. GUI used memory: 104 MB. Current time: 7/24/23 11:38:08 PM PKT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_FUNCTIONAL, "Run Post-Implementation Functional Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_IMPLEMENTATION_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (ck):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Device view-level: 0.1
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-implementation -type functional 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim' 
+// Tcl Message: Vivado Simulator 2018.2 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4b9b058bbfb74c0d95bcda2b4917ffe2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot posit_mult_8bit_tb_v_func_impl xil_defaultlib.posit_mult_8bit_tb_v xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "posit_mult_8bit_tb_v_func_impl -key {Post-Implementation:sim_1:Functional:posit_mult_8bit_tb_v} -tclbatch {posit_mult_8bit_tb_v.tcl} -view {C:/project_posit_mult_dsp/posit_mult_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,802 MB. GUI used memory: 105 MB. Current time: 7/24/23 11:38:20 PM PKT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: open_wave_config C:/project_posit_mult_dsp/posit_mult_behav.wcfg 
+// Tcl Message: source posit_mult_8bit_tb_v.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # open_saif "saif_test.saif" # log_saif [get_objects -r *] # run 1000ns 
+// Tcl Message: $finish called at time : 300100 ps : File "C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/new/tb.v" Line 102 
+// Tcl Message: # close_saif 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'posit_mult_8bit_tb_v_func_impl' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2030.918 ; gain = 0.000 
+// 'd' command handler elapsed time: 10 seconds
+dismissDialog("Run Simulation"); // e (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true, false, false, false, false, true); // u (O, ck) - Double Click - Node
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_POWER_ESTIMATION, "Report Power..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// a (ck): Report Power: addNotify
+selectTab(PAResourceTtoZ.XPowerSettingsDialog_TABBED_PANE, PAResourceTtoZ.XPowerSettingsDialog_SWITCHING, "Switching", 2); // i (a)
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_CHOOSE_INPUT_SIMULATION_ACTIVITY_FILE, (String) null); // q (ak)
+setFileChooser("C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test.saif");
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+// 'dk' command handler elapsed time: 12 seconds
+dismissDialog("Report Power"); // a (ck)
+// Tcl Message: read_saif {C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test.saif} 
+// Tcl Message: INFO: [Power 33-167] Parsing SAIF file C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test.saif 
+// Tcl Message: INFO: [Power 33-177] SAIF annotation done from file C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/saif_test.saif INFO: [Power 33-26] Design nets matched = 984 of 984 
+// bx (ck):  Power Analysis : addNotify
+// Tcl Message: report_power -name {power_2} 
+// Tcl Message: Command: report_power -name power_2 
+// TclEventType: POWER_UPDATED
+// Tcl Message: 0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. report_power completed successfully 
+dismissDialog("Power Analysis"); // bx (ck)
+maximizeFrame(PAResourceOtoP.PAViews_POWER, "Power - power_2"); // aw (aE, ck)
+// Elapsed time: 16 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_IO, "IO"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TIMING, "Timing"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION, "Report Utilization..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (ck): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Report Utilization"); // a (ck)
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// bx (ck):  Report Utilization : addNotify
+// Tcl Message: report_utilization -name utilization_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,814 MB. GUI used memory: 119 MB. Current time: 7/24/23 11:39:15 PM PKT
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 2030.918 ; gain = 0.000 
+dismissDialog("Report Utilization"); // bx (ck)

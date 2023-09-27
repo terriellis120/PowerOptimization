@@ -1,0 +1,13 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/posit_mult_8bit_tb_v_func_impl.v,1690279425,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_left_N_S.v,,CSA;FA;FA_0;glbl;intMult;posit_mult,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Floating-Point_to_Posit_Convertor/FP_to_Posit.v,1560477736,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LOD_N.v,,FP_to_posit,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Posit_to_Floating-Point_Convertor/Posit_to_FP.v,1560477736,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/data_extract.v,,Posit_to_FP,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/new/tb.v,1689189476,verilog,,,,posit_mult_8bit_tb_v,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_left_N_S.v,1560477736,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_right_N_S.v,,DSR_left_N_S,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_right_N_S.v,1560477736,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Floating-Point_to_Posit_Convertor/FP_to_Posit.v,,DSR_right_N_S,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LOD_N.v,1560477736,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LZD_N.v,,LOD;LOD_N,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LZD_N.v,1560477736,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Posit_to_Floating-Point_Convertor/Posit_to_FP.v,,LZD;LZD_N,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,
+C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/data_extract.v,1560477736,verilog,,C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/new/tb.v,,data_extract,,,../../../../../project_posit_mult.srcs/sources_1/imports,,,,,

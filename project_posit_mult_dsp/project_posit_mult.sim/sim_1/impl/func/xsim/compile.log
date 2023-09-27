@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.sim/sim_1/impl/func/xsim/posit_mult_8bit_tb_v_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSA
+INFO: [VRFC 10-311] analyzing module FA
+INFO: [VRFC 10-311] analyzing module FA_0
+INFO: [VRFC 10-311] analyzing module intMult
+INFO: [VRFC 10-311] analyzing module posit_mult
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_left_N_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DSR_left_N_S
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/DSR_right_N_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DSR_right_N_S
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Floating-Point_to_Posit_Convertor/FP_to_Posit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FP_to_posit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LOD_N.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LOD_N
+INFO: [VRFC 10-311] analyzing module LOD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/LZD_N.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LZD_N
+INFO: [VRFC 10-311] analyzing module LZD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/imports/Posit-HDL-Arithmetic-master/Posit_to_Floating-Point_Convertor/Posit_to_FP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Posit_to_FP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sources_1/imports/Posit-Multiplier/data_extract.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_extract
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/project_posit_mult_dsp/project_posit_mult.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module posit_mult_8bit_tb_v

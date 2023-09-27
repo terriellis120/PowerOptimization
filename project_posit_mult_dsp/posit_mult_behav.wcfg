@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="posit_mult_8bit_tb_v_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="posit_mult_8bit_tb_v" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="300000001fs"></ZoomEndTime>
+      <Cursor1Time time="193750000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="134"></NameColumnWidth>
+      <ValueColumnWidth column_width="217"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/posit_mult_8bit_tb_v/in1" type="array">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/in2" type="array">
+      <obj_property name="ElementShortName">in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/in1_float" type="array">
+      <obj_property name="ElementShortName">in1_float[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1_float[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/in2_float" type="array">
+      <obj_property name="ElementShortName">in2_float[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2_float[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/out_float" type="array">
+      <obj_property name="ElementShortName">out_float[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_float[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/inf" type="logic">
+      <obj_property name="ElementShortName">inf</obj_property>
+      <obj_property name="ObjectShortName">inf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/Bs" type="array">
+      <obj_property name="ElementShortName">Bs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Bs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/es" type="array">
+      <obj_property name="ElementShortName">es[31:0]</obj_property>
+      <obj_property name="ObjectShortName">es[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/A" type="array">
+      <obj_property name="ElementShortName">A[25:0]</obj_property>
+      <obj_property name="ObjectShortName">A[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/B" type="array">
+      <obj_property name="ElementShortName">B[25:0]</obj_property>
+      <obj_property name="ObjectShortName">B[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/C" type="array">
+      <obj_property name="ElementShortName">C[51:0]</obj_property>
+      <obj_property name="ObjectShortName">C[51:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/output_dsp" type="array">
+      <obj_property name="ElementShortName">output_dsp[3:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">output_dsp[3:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/op_reg" type="array">
+      <obj_property name="ElementShortName">op_reg[7:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">op_reg[7:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/first_index_dsp" type="array">
+      <obj_property name="ElementShortName">first_index_dsp[1:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">first_index_dsp[1:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/second_index_dsp" type="array">
+      <obj_property name="ElementShortName">second_index_dsp[1:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">second_index_dsp[1:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/csa_out_c" type="array">
+      <obj_property name="ElementShortName">csa_out_c[63:0]</obj_property>
+      <obj_property name="ObjectShortName">csa_out_c[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/csa_out_s" type="array">
+      <obj_property name="ElementShortName">csa_out_s[63:0]</obj_property>
+      <obj_property name="ObjectShortName">csa_out_s[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/C_out" type="array">
+      <obj_property name="ElementShortName">C_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">C_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/S_out" type="array">
+      <obj_property name="ElementShortName">S_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">S_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/i_loop" type="array">
+      <obj_property name="ElementShortName">i_loop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_loop[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/posit_mult_8bit_tb_v/uut/intMultinst/m_loop" type="array">
+      <obj_property name="ElementShortName">m_loop[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_loop[31:0]</obj_property>
+   </wvobject>
+</wave_config>

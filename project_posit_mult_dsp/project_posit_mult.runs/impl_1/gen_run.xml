@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1689619549">
+  <File Type="BITSTR-BMM" Name="posit_mult_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="posit_mult_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="posit_mult.tcl"/>
+  <File Type="OPT-DCP" Name="posit_mult_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="posit_mult_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="posit_mult_reports.tcl"/>
+  <File Type="OPT-DRC" Name="posit_mult_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="posit_mult.hwdef"/>
+  <File Type="PWROPT-DCP" Name="posit_mult_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="posit_mult_placed.dcp"/>
+  <File Type="PLACE-IO" Name="posit_mult_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="posit_mult_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="posit_mult_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="posit_mult_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="posit_mult_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="posit_mult.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="posit_mult_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="posit_mult.bin"/>
+  <File Type="PHYSOPT-DCP" Name="posit_mult_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="posit_mult.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="posit_mult_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="posit_mult_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="posit_mult_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="posit_mult_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="posit_mult_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="posit_mult.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="posit_mult_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="posit_mult.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="posit_mult_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="posit_mult_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="posit_mult.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="posit_mult_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="posit_mult_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="posit_mult_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="posit_mult_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="posit_mult_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="posit_mult_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="posit_mult_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="posit_mult.vdi"/>
+  <File Type="ROUTE-CLK" Name="posit_mult_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="posit_mult_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="posit_mult_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="posit_mult_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="posit_mult_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="posit_mult_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="posit_mult.bit"/>
+  <File Type="BITSTR-RBT" Name="posit_mult.rbt"/>
+  <File Type="BITSTR-NKY" Name="posit_mult.nky"/>
+  <File Type="BG-DRC" Name="posit_mult.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/defines.v">
+      <FileInfo SFType="VHeader">
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CSA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/DSR_left_N_S.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/DSR_left_N_S.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/DSR_right_N_S.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/DSR_right_N_S.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/FA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/LOD_N.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/LOD_N.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/LZD_N.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/LZD_N.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/data_extract.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/data_extract.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/intMult.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Posit-Multiplier/posit_mult.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Posit-HDL-Arithmetic-master/Posit-Multiplier/posit_mult.v"/>
+        <Attr Name="ImportTime" Val="1560477736"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="posit_mult"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
